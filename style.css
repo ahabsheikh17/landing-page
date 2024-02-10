@@ -1,0 +1,92 @@
+* {
+  color: white;
+}
+body {
+  width: 1250px;
+  height: 600px;
+  background: url(./bg.png);
+  background-size: 1250px 600px;
+
+  /* background: #2F1893 0.6; */
+}
+
+/* .opacity {
+    width: 00px;
+    height: 600px;
+    background-color: #2F1893;
+    opacity: 0.5;
+} */
+
+.header {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 1000px;
+  margin-top: 60px;
+  margin-left: 170px;
+}
+
+.mylogo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 1em;
+}
+
+.signup {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: 170px;
+}
+
+.container > h1 {
+  width: 410px;
+  height: 150px;
+  margin-top: 70px;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.container > h5 {
+  width: 410px;
+  height: 70px;
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: none;
+}
+
+.action-button > button {
+  height: 40px;
+  width: 100px;
+  color: black;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.new {
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.01);
+}
